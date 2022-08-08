@@ -10,6 +10,8 @@ function Layout() {
     <>
       <div className="">
           <Profile />
+          <div className="mt-10"><Attention/></div>
+          <div className="mt-10"><Payment/></div>
       </div>
     </>
   );
