@@ -17,7 +17,7 @@ function Payment() {
         <div className="p-5">
           <div className="text-[24px] font-semibold">My Card</div>
           <div className="md:flex gap-5  justify-between p-2">
-            <div className="border-dashed border-2 p-5 mb-4">
+            <div className="border-dashed rounded-lg border-2 p-5 mb-4">
               <div className="flex gap-2 ">
                 <div className="font-semibold">Marcus Moris</div>
                 <div>
@@ -49,7 +49,7 @@ function Payment() {
               </div>
             </div>
 
-            <div className="border-dashed border-2 p-5 mb-4">
+            <div className="border-dashed rounded-lg border-2 p-5 mb-4">
               <div className="flex gap-2 ">
                 <div className="font-semibold">Jacob Holder</div>
               </div>
@@ -80,7 +80,7 @@ function Payment() {
           <div className="">
             {/** Master card  */}
             <div className="md:flex gap-5  justify-between ">
-              <div className="border-dashed border-2 p-4 mb-4">
+              <div className="border-dashed rounded-lg border-2 p-4 mb-4">
                 <div className="flex gap-2 ">
                   <div className="font-semibold">Jhon Larson</div>
                 </div>
@@ -111,7 +111,7 @@ function Payment() {
                 </div>
               </div>
 
-              <div className="border-dashed border-2 ">
+              <div className="border-dashed rounded-lg border-2 ">
                 <div className="p-5">
                   <div className="font-semibold ">
                     This is a very important note!

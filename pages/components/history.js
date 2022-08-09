@@ -61,7 +61,7 @@ function History() {
           <div>history</div>
         </div>
         <hr></hr>
-        <div  className="lg:overflow-x-hidden overflow-x-scroll ">
+        <div  className="overflow-x-auto">
         <div className="flex justify-between bg-gray-100 p-5  text-gray-700 font-semibold">
           <div>Date</div>
           <div>Description</div>

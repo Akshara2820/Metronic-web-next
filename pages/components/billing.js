@@ -12,7 +12,7 @@ function Billing() {
     <div className="p-5">
       
       <div className="md:flex gap-5  justify-between p-2">
-        <div className="border-dashed border-2 p-5 mb-4">
+        <div className="border-dashed rounded-lg border-2 p-5 mb-4">
           <div className="flex gap-2 ">
             <div className="font-semibold">Address 1</div>
             <div>
@@ -40,7 +40,7 @@ function Billing() {
           </div>
         </div>
 
-        <div className="border-dashed border-2 p-5 mb-4">
+        <div className="border-dashed rounded-lg border-2 p-5 mb-4">
           <div className="flex gap-2 ">
             <div className="font-semibold">Address 2</div>
           </div>
@@ -67,7 +67,7 @@ function Billing() {
       <div className="">
         {/** Master card  */}
         <div className="md:flex gap-5  justify-between ">
-        <div className="border-dashed border-2 p-5 mb-4">
+        <div className="border-dashed rounded-lg border-2 p-5 mb-4">
         <div className="flex gap-2 ">
           <div className="font-semibold">Address 3</div>
         </div>
@@ -91,7 +91,7 @@ function Billing() {
       </div>
 
       <div className="md:flex gap-5  justify-between ">
-      <div className="border-dashed border-2 p-2 mb-4">
+      <div className="border-dashed rounded-lg border-2 p-2 mb-4">
       <div className="flex gap-2 ">
         <div className="font-semibold mt-3">This is a very important note!</div>
       </div>

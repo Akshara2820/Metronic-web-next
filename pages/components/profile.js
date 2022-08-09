@@ -37,7 +37,7 @@ function Profile() {
                 </div>
 
                 <div className="lg:flex flex-wrap">
-                  <div className="md:flex pt-4 gap-5">
+                  <div className="flex flex-wrap pt-4 gap-5">
                     <h3 className="text-gray-400 flex hover:text-sky-500">
                       <TbUserCircle className="mt-1" /> Developer
                     </h3>
@@ -49,24 +49,23 @@ function Profile() {
                     </h3>
                   </div>
 
-                  <div className="flex gap-5 md:mt-0 mt-5 ">
+                  <div className="flex gap-5 md:mt-0 mt-5 items-center">
                     <div className="bg-gray-100 p-2 rounded-lg font-semibold text-[12px] text-gray-500">
                       follow
                     </div>
                     <div className="bg-sky-500 text-white p-2  rounded-lg font-semibold text-[12px]">
                       Hire Me
                     </div>
-                    <div className="bg-gray-100 py-2 px-2 rounded-lg">...</div>
+                    <div className="bg-gray-100 px-4 py-2 rounded-lg">...</div>
                   </div>
                 </div>
 
-                <div className="lg:flex pt-6 gap-5 lg:flex-wrap items-center md:flex md:flex-wrap">
-                  <div className="flex gap-5 flex-wrap">
+                <div className=" pt-6">
+                  <div className="flex gap-5 md:flex-wrap flex-wrap">
                     <div className=" border-dashed border-2 border-gray-200 rounded-lg p-4">
                       <div className="flex gap-2 text-[20px]">
                         <AiOutlineArrowUp className="mt-2 text-green-500" />
-                        <h3 className="font-bold text-[25px] w-[100px]">
-                          {" "}
+                        <h3 className="font-bold text-[25px] md:w-[100px]">
                           $4,500
                         </h3>
                       </div>
@@ -76,7 +75,7 @@ function Profile() {
                     <div className=" border-dashed border-2 border-gray-200 rounded-lg p-4">
                       <div className="flex gap-2 text-[20px]">
                         <AiOutlineArrowDown className="mt-2 text-red-500" />
-                        <h3 className="font-bold text-[25px] w-[100px]"> 75</h3>
+                        <h3 className="font-bold text-[25px] md:w-[100px] w-[50px]"> 75</h3>
                       </div>
                       <p className="text-gray-400 ">Projects</p>
                     </div>
@@ -84,7 +83,7 @@ function Profile() {
                     <div className=" border-dashed border-2 border-gray-200 rounded-lg p-4">
                       <div className="flex gap-2 text-[20px]">
                         <AiOutlineArrowUp className="mt-2 text-green-500" />
-                        <h3 className="font-bold text-[25px] w-[100px]">
+                        <h3 className="font-bold text-[25px] md:w-[100px]">
                           %60
                         </h3>
                       </div>
