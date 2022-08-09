@@ -8,10 +8,12 @@ import Profile from "./profile";
 function Layout() {
   return (
     <>
-      <div className="">
-          <Profile />
+      <div className="p-5">
+          <div className="mt-10"><Profile /></div>
           <div className="mt-10"><Attention/></div>
           <div className="mt-10"><Payment/></div>
+          <div className="mt-10"><Billing/></div>
+          <div className="mt-10"><History/></div>
       </div>
     </>
   );
